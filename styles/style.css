@@ -1,10 +1,105 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+header{
+  width:100%;
+  background:white; 
+}
+#headerList{
+  list-style-type: none;
+  float:right;
+  font-size:20px ;
+}
+#headerList>li a{
+  display:block;
+  padding: 16px;
+  text-decoration: none;
+  text-align: center;
+  font: 1A1A1A;
+  color: black;
+  text-decoration: underline;
+}
+#headerList>li{
+  float: left;
+}
+h1{ 
+  justify-content: center;
+   align-items: center;
+   text-align: center;
+   font: 1A1A1A;
+   font-size: 50px;
+}
+p{
+  text-align: center;
+  font: 1A1A1A;
+}
+#imgSection{
+  position:relative;
+}
+#imgText{
+  font:1A1A1A;
+  position:absolute;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+   top: 40%;
+    left:50%;
+    color:black;
+    width:30%;
+    height:30%;
+}
+.center{
+  display: block;
+  margin-top: 15px;
+  margin-left: 30px;
+ color:white;
+  border: 8px solid white;
+  padding: 50px;
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+#section2>div{
+  float: right;
+  font-size: 20px;
+  color:white;
+  padding: 30px;
+background-color:rgb(67, 163, 230);
+}
+#section2>h2{
+  text-align: center;
+  text-decoration: underline;;
+  font: 1A1A1A;
+  font-size:40px;
+  color:rgb(67, 163, 230);;
+}
+
+h3{
+font-size:30px;
+color:rgb(67, 163, 230);;
+text-align: center;
+justify-content: center;
+text-decoration: underline;
+margin-left: 300px;
+}
+
+.slot-form-container {
+  width: 40%;
+  margin: 18px auto 0 auto;
+  font-size: 1.0em;
+  text-align: center;
+  padding: 5px;
+ 
+}
+.slot-form-container label{
+  line-height: 15px;
+  margin: 5px;
+}
+.slot-form-container input, select {
+  height: 20px;
+  outline: none;
+  padding: 3px;
+  width: 100%;
+}
+.slot-form-container button{
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  padding: 9px;
+  margin: 15px 0 0 0;
 }
